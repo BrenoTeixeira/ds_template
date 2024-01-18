@@ -1,0 +1,20 @@
+# Load data
+columns_to_use: []
+
+train_dataset_name: '../data/raw/training.csv'
+test_dataset_name: '../data/raw/test.csv'
+
+target_name: 
+
+# data preparation
+test_size: 0.30
+random_state: 42
+
+
+vars_imputer: []
+
+
+# Model loading
+model_path: '../models/model.joblib'
+
+val_metric: 'roc_auc'
