@@ -1,4 +1,4 @@
 # {{cookiecutter.project_name}}
 
-Project Author: {{cookiecutter.author name}}
+Project Author: {{cookiecutter.author_name}}
 {{cookiecutter.description}}
